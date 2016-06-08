@@ -17,6 +17,7 @@
 
                 <li class="ephemeral selected"><a href="/author/kristin.html">Kristin</a></li>
                 <li><a href="">Home</a></li>
+                <li><a href="/pages/gallery.html">Gallery</a></li>
             </ul>
         </nav>
         <div class="header_box">
@@ -31,15 +32,7 @@
                     <a href="/my-first-test-post.html" rel="bookmark" title="Permanent Link to &quot;My First Test Post&quot;">My First Test Post</a>
                 </h2>
 
-                <p>Following is the text of my first test post</p>
-<h2><a href="{{ SITEURL }}/pages/gallery.html#{{ article.album }}#{{ article.album }}">{{ article.album }}</a></h2>
-
-<div class="highlight"><pre><span></span><span class="nt">&lt;ul&gt;</span>
-<span class="cp">{%</span> <span class="k">for</span> <span class="nv">image</span> <span class="k">in</span> <span class="nv">article.galleryimages</span> <span class="cp">%}</span>
-<span class="nt">&lt;li&gt;&lt;a</span> <span class="na">class=</span><span class="s">&quot;</span><span class="cp">{{</span> <span class="nv">article.album</span> <span class="cp">}}</span><span class="s"> cboxElement&quot;</span> <span class="na">href=</span><span class="s">&quot;</span><span class="cp">{{</span> <span class="nv">SITEURL</span> <span class="cp">}}</span><span class="s">/static/images/gallery/</span><span class="cp">{{</span> <span class="nv">article.album</span> <span class="cp">}}</span><span class="s">/</span><span class="cp">{{</span> <span class="nv">image</span> <span class="cp">}}</span><span class="s">&quot;</span><span class="nt">&gt;&lt;img</span> <span class="na">src=</span><span class="s">&quot;</span><span class="cp">{{</span> <span class="nv">SITEURL</span> <span class="cp">}}</span><span class="s">/static/images/gallery200x200/</span><span class="cp">{{</span> <span class="nv">article.album</span> <span class="cp">}}</span><span class="s">/</span><span class="cp">{{</span> <span class="nv">image</span> <span class="cp">}}</span><span class="s">&quot;</span><span class="nt">&gt;&lt;/a&gt;&lt;/li&gt;</span>
-<span class="cp">{%</span> <span class="k">endfor</span> <span class="cp">%}</span>
-<span class="nt">&lt;/ul&gt;</span>
-</pre></div>
+                <p>This is the text of my first test post</p>
                 <div class="clear"></div>
 
                 <div class="info">
