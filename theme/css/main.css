@@ -122,6 +122,7 @@ th {
 
 h1 {
     font-size: 2em;
+		font-family: sans-serif;
 }
 
 h1 cite {
@@ -132,6 +133,7 @@ h1 cite {
 h2 {
     margin: 0;
     padding: 15px 0 20px;
+		font-family: sans-serif:
 }
 
 .archives h2 {
@@ -194,6 +196,7 @@ a, a:visited {
 
 .entry-overview {
     margin-bottom: 35px;
+		font-family: sans-serif;
 }
 
 .entry-overview h1 {
@@ -255,6 +258,7 @@ a, a:visited {
 
 #right-side .section-container h3 {
     text-decoration: underline;
+		font-family: sans-serif;
 }
 
 #right-side .section-container ul {
