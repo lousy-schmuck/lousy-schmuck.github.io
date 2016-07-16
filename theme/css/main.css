@@ -42,7 +42,7 @@ body {
 }
 
 #content p {
-    text-align: justify;
+    text-align: left;
     margin-top: 0;
 }
 
@@ -209,7 +209,25 @@ a, a:visited {
 }
 
 .entry-overview .summary p {
+    font-family: Georgia;
     margin: 0;
+}
+
+.entry-overview .detail {
+    font-family: Georgia;
+    margin-top: 40px;
+}
+
+.entry-overview .detail p {
+    font-family: Georgia;
+    text-align: left;
+    margin-top: 0;
+}
+
+.entry-overview .detail img {
+    display: block;
+    margin: 20px auto;
+    max-width: 85%;
 }
 
 .tags {
